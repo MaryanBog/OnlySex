@@ -17,11 +17,11 @@ dependencies {
 
 compose.desktop {
     application {
-        mainClass = "com.jetbrains.kmpapp.MainKt"
+        mainClass = "com.onlysex.app.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "com.jetbrains.kmpapp"
+            packageName = "com.onlysex.app"
             packageVersion = "1.0.0"
         }
     }

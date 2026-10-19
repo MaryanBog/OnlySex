@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_tagline">Без вопросов. Без правды.\nТолько действие.</string>
+    <string name="start_game">НАЧАТЬ ИГРУ</string>
+
+    <string name="player_count_title">СКОЛЬКО ИГРОКОВ?</string>
+    <string name="player_count_description">Выберите, кто играет сегодня.</string>
+    <string name="two_players">2 ИГРОКА</string>
+    <string name="three_players">3 ИГРОКА</string>
+
+    <string name="player_setup_title">НАСТРОЙТЕ ИГРОКОВ</string>
+    <string name="player_setup_description">Укажите пол для распределения игровых ролей.</string>
+    <string name="player_number">ИГРОК %1$d</string>
+    <string name="gender_male">МУЖЧИНА</string>
+    <string name="gender_female">ЖЕНЩИНА</string>
+    <string name="gender_non_binary">НЕБИНАРНЫЙ</string>
+
+    <string name="totem_selection_title">ВЫБЕРИТЕ СВОЙ ТОТЕМ</string>
+    <string name="totem_selection_description">Каждый игрок должен выбрать уникальное животное.</string>
+    <string name="next_player">СЛЕДУЮЩИЙ ИГРОК</string>
+    <string name="toy_selection_title">КАКИЕ ИГРУШКИ У ВАС ЕСТЬ?</string>
+    <string name="toy_selection_description">Выберите доступные игрушки. Можно продолжить, ничего не выбирая.</string>
+    <string name="continue_button">ПРОДОЛЖИТЬ</string>
+    <string name="back">НАЗАД</string>
+
+    <string name="intensity_title">ВЫБЕРИТЕ УРОВЕНЬ</string>
+    <string name="intensity_description">Уровень можно менять между ходами.</string>
+    <string name="intensity_level">УРОВЕНЬ %1$d</string>
+
+    <string name="intensity_1_name">СЕКСУАЛЬНАЯ РАЗМИНКА</string>
+    <string name="intensity_1_description">Раздевание, откровенные прикосновения и интенсивная стимуляция.</string>
+
+    <string name="intensity_2_name">ОТКРОВЕННОЕ УДОВОЛЬСТВИЕ</string>
+    <string name="intensity_2_description">Прямая стимуляция гениталий, оральные практики и секс-игрушки.</string>
+
+    <string name="intensity_3_name">ПОЛНЫЙ СЕКС</string>
+    <string name="intensity_3_description">Сексуальные позиции, проникновение и контроль оргазма.</string>
+
+    <string name="intensity_4_name">ЖЁСТКИЕ ЭКСПЕРИМЕНТЫ</string>
+    <string name="intensity_4_description">Анальные практики, связывание, доминирование и контролируемая боль.</string>
+
+    <string name="intensity_5_name">МАКСИМАЛЬНАЯ ИНТЕНСИВНОСТЬ</string>
+    <string name="intensity_5_description">Самые откровенные и интенсивные сценарии игры.</string>
+
+    <string name="penalty_selection_title">ВЫБЕРИТЕ НАКАЗАНИЕ</string>
+    <string name="penalty_selection_description">Выберите, что вы выполните, если нажмёте «ПРОПУСТИТЬ».</string>
+    <string name="no_compatible_penalties">Подходящие наказания не найдены.</string>
+    <string name="confirm_and_pass_phone">ПОДТВЕРДИТЬ И ПЕРЕДАТЬ ТЕЛЕФОН</string>
+    <string name="duration_seconds">%1$d сек.</string>
+    <string name="database_error">ОШИБКА БАЗЫ ДАННЫХ</string>
+    <string name="unable_to_load_penalties">Не удалось загрузить наказания.</string>
+
+    <string name="summary_title">ВСЁ ГОТОВО</string>
+    <string name="summary_description">Проверьте настройки перед началом игры.</string>
+    <string name="summary_intensity">ИНТЕНСИВНОСТЬ</string>
+    <string name="summary_level">Уровень %1$d</string>
+    <string name="summary_available_toys">ДОСТУПНЫЕ ИГРУШКИ</string>
+    <string name="summary_no_toys">Ничего не выбрано</string>
+    <string name="summary_no_totem">Тотем не выбран</string>
+    <string name="summary_penalty_private">Наказание выбрано лично</string>
+
+    <string name="turn_title">ВАШ ХОД</string>
+    <string name="turn_intensity_level">УРОВЕНЬ ИНТЕНСИВНОСТИ</string>
+    <string name="turn_shake_instruction">Встряхните телефон, чтобы получить задание</string>
+    <string name="get_task">ПОЛУЧИТЬ ЗАДАНИЕ</string>
+
+    <string name="task_start">НАЧАТЬ</string>
+    <string name="task_time_is_up">ВРЕМЯ ВЫШЛО</string>
+    <string name="task_done">ГОТОВО</string>
+    <string name="task_wait">ЖДИТЕ</string>
+    <string name="task_pass">ПРОПУСТИТЬ</string>
+    <string name="task_stop">ОСТАНОВИТЬ</string>
+
+    <string name="role_participant">УЧАСТНИК</string>
+    <string name="role_performer">ИСПОЛНИТЕЛЬ</string>
+    <string name="role_receiver">ПОЛУЧАТЕЛЬ</string>
+    <string name="role_observer">НАБЛЮДАТЕЛЬ</string>
+    <string name="role_takes_turns">ПО ОЧЕРЕДИ</string>
+
+    <string name="active_penalty_title">НАКАЗАНИЕ</string>
+    <string name="active_player_role">АКТИВНЫЙ ИГРОК</string>
+    <string name="penalty_partner_role">ПАРТНЁР</string>
+    <string name="two_player_names">%1$s и %2$s</string>
+
+    <string name="stop_dialog_title">Остановить игру?</string>
+    <string name="stop_dialog_description">Текущая игровая сессия завершится.</string>
+    <string name="stop_game">ОСТАНОВИТЬ ИГРУ</string>
+    <string name="continue_game">ПРОДОЛЖИТЬ</string>
+
+    <string name="game_over_title">ИГРА ОКОНЧЕНА</string>
+    <string name="game_over_message">Сегодня не ваш вечер — настольные игры всё ещё никто не отменял 😏</string>
+    <string name="end_session">ЗАВЕРШИТЬ СЕССИЮ</string>
+
+    <string name="loading_game">Загрузка игры...</string>
+    <string name="no_compatible_task">ПОДХОДЯЩЕЕ ЗАДАНИЕ НЕ НАЙДЕНО</string>
+    <string name="no_compatible_task_hint">Выберите другой уровень или измените список доступных игрушек.</string>
+</resources>

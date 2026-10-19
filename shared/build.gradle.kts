@@ -1,4 +1,3 @@
-import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -20,25 +19,15 @@ kotlin {
         }
     }
 
-    jvm()
-
-    js {
-        browser()
-    }
-
-    @OptIn(ExperimentalWasmDsl::class)
-    wasmJs {
-        browser()
-    }
-
     androidLibrary {
-        namespace = "com.jetbrains.kmpapp.shared"
+        namespace = "com.onlysex.app.shared"
         compileSdk = libs.versions.android.compileSdk.get().toInt()
         minSdk = libs.versions.android.minSdk.get().toInt()
 
         compilerOptions {
             jvmTarget = JvmTarget.JVM_11
         }
+
         androidResources {
             enable = true
         }
@@ -50,15 +39,11 @@ kotlin {
             implementation(libs.androidx.activity.compose)
             implementation(libs.ktor.client.okhttp)
         }
+
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
         }
-        jvmMain.dependencies {
-            implementation(libs.ktor.client.okhttp)
-        }
-        webMain.dependencies {
-            implementation(libs.ktor.client.js)
-        }
+
         commonMain.dependencies {
             implementation(libs.compose.runtime)
             implementation(libs.compose.foundation)

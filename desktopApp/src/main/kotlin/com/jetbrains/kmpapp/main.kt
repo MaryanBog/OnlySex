@@ -1,8 +1,8 @@
-package com.jetbrains.kmpapp
+package com.onlysex.app
 
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
-import com.jetbrains.kmpapp.di.initKoin
+import com.onlysex.app.di.initKoin
 
 fun main() {
     initKoin()

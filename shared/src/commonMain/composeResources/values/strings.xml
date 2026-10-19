@@ -1,15 +1,97 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="label_title">Title</string>
-    <string name="label_artist">Artist</string>
-    <string name="label_date">Date</string>
-    <string name="label_dimensions">Dimensions</string>
-    <string name="label_medium">Medium</string>
-    <string name="label_department">Department</string>
-    <string name="label_repository">Repository</string>
-    <string name="label_credits">Credits</string>
+    <string name="welcome_tagline">No questions. No truth.\nOnly action.</string>
+    <string name="start_game">START GAME</string>
 
-    <string name="back">Back</string>
+    <string name="player_count_title">HOW MANY PLAYERS?</string>
+    <string name="player_count_description">Choose who is playing tonight.</string>
+    <string name="two_players">2 PLAYERS</string>
+    <string name="three_players">3 PLAYERS</string>
 
-    <string name="no_data_available">No data available</string>
+    <string name="player_setup_title">CHOOSE EACH PLAYER</string>
+    <string name="player_setup_description">Select the gender used to match game roles.</string>
+    <string name="player_number">PLAYER %1$d</string>
+    <string name="gender_male">MALE</string>
+    <string name="gender_female">FEMALE</string>
+    <string name="gender_non_binary">NON-BINARY</string>
+
+    <string name="totem_selection_title">CHOOSE YOUR TOTEM</string>
+    <string name="totem_selection_description">Each player must choose a different animal.</string>
+    <string name="next_player">NEXT PLAYER</string>
+    <string name="toy_selection_title">WHAT DO YOU HAVE?</string>
+    <string name="toy_selection_description">Select available toys. You can continue without choosing any.</string>
+    <string name="continue_button">CONTINUE</string>
+    <string name="back">BACK</string>
+
+    <string name="intensity_title">CHOOSE YOUR LEVEL</string>
+    <string name="intensity_description">You can change the level between turns.</string>
+    <string name="intensity_level">LEVEL %1$d</string>
+
+    <string name="intensity_1_name">SEXUAL WARM-UP</string>
+    <string name="intensity_1_description">Undressing, explicit touching and intense stimulation.</string>
+
+    <string name="intensity_2_name">EXPLICIT PLEASURE</string>
+    <string name="intensity_2_description">Direct genital stimulation, oral play and sex toys.</string>
+
+    <string name="intensity_3_name">FULL SEX</string>
+    <string name="intensity_3_description">Sexual positions, penetration and orgasm control.</string>
+
+    <string name="intensity_4_name">HARD EXPERIMENTS</string>
+    <string name="intensity_4_description">Anal play, bondage, domination and controlled pain.</string>
+
+    <string name="intensity_5_name">MAXIMUM INTENSITY</string>
+    <string name="intensity_5_description">The most explicit and intense scenarios in the game.</string>
+
+    <string name="penalty_selection_title">CHOOSE YOUR PENALTY</string>
+    <string name="penalty_selection_description">Choose what you will do if you press PASS.</string>
+    <string name="no_compatible_penalties">No compatible penalties were found.</string>
+    <string name="confirm_and_pass_phone">CONFIRM AND PASS PHONE</string>
+    <string name="duration_seconds">%1$d seconds</string>
+    <string name="database_error">DATABASE ERROR</string>
+    <string name="unable_to_load_penalties">Unable to load penalties.</string>
+
+    <string name="summary_title">READY TO PLAY</string>
+    <string name="summary_description">Check the game setup before starting.</string>
+    <string name="summary_intensity">INTENSITY</string>
+    <string name="summary_level">Level %1$d</string>
+    <string name="summary_available_toys">AVAILABLE TOYS</string>
+    <string name="summary_no_toys">None selected</string>
+    <string name="summary_no_totem">No totem</string>
+    <string name="summary_penalty_private">Penalty selected privately</string>
+
+    <string name="turn_title">YOUR TURN</string>
+    <string name="turn_intensity_level">INTENSITY LEVEL</string>
+    <string name="turn_shake_instruction">Shake the phone to reveal your task</string>
+    <string name="get_task">GET TASK</string>
+
+    <string name="task_start">START</string>
+    <string name="task_time_is_up">TIME IS UP</string>
+    <string name="task_done">DONE</string>
+    <string name="task_wait">WAIT</string>
+    <string name="task_pass">PASS</string>
+    <string name="task_stop">STOP</string>
+
+    <string name="role_participant">PARTICIPANT</string>
+    <string name="role_performer">PERFORMER</string>
+    <string name="role_receiver">RECEIVER</string>
+    <string name="role_observer">OBSERVER</string>
+    <string name="role_takes_turns">TAKES TURNS</string>
+
+    <string name="active_penalty_title">PENALTY</string>
+    <string name="active_player_role">ACTIVE PLAYER</string>
+    <string name="penalty_partner_role">PARTNER</string>
+    <string name="two_player_names">%1$s and %2$s</string>
+
+    <string name="stop_dialog_title">Stop the game?</string>
+    <string name="stop_dialog_description">The current game session will end.</string>
+    <string name="stop_game">STOP GAME</string>
+    <string name="continue_game">CONTINUE</string>
+
+    <string name="game_over_title">GAME OVER</string>
+    <string name="game_over_message">Tonight isn\'t the night — board games are still an option 😏</string>
+    <string name="end_session">END SESSION</string>
+
+    <string name="loading_game">Loading game...</string>
+    <string name="no_compatible_task">NO COMPATIBLE TASK FOUND</string>
+    <string name="no_compatible_task_hint">Try another level or change the available toys.</string>
 </resources>

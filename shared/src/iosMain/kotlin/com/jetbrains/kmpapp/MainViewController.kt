@@ -1,4 +1,4 @@
-package com.jetbrains.kmpapp
+package com.onlysex.app
 
 import androidx.compose.ui.window.ComposeUIViewController
 
